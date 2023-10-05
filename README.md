@@ -19,9 +19,17 @@ identified)
 a saved version of the model)
 - prairegrass_data_nn.py (contains the python script for the neural network model. Includes 
 code to test a saved version of the model)
-- prairegrass_django_api_test.py (contains the python based API testing script)
 - conda_requirements.txt (contains a list of python packages and versions used to develop the 
 machine learning models)
 - tensorflow375.yml (similar requirements.txt above. This contains a list of python packages 
 and versions used in the conda virtual environment where this work was done)
+
+
+To run the code
+- Build/create a conda environment
+-   conda env create -f tensorflow375.yml or [NB in thie case the name of the enviroment is the first line of the .yml file]
+-   conda create --name myenv --file conda_requirements.txt [replace "myenv" with a name of your choice]
+- Activate the enviroment
+-   conda activate myenv
+- Run the scripts above.
 
