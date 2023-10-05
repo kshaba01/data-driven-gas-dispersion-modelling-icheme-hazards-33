@@ -29,7 +29,6 @@ To run the code
 - Build/create a conda environment
 -   conda env create -f tensorflow375.yml or [NB in thie case the name of the enviroment is the first line of the .yml file]
 -   conda create --name myenv --file conda_requirements.txt [replace "myenv" with a name of your choice]
-- Activate the enviroment
--   conda activate myenv
+- Activate the enviroment - conda activate myenv
 - Run the scripts above.
 
