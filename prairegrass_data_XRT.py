@@ -197,10 +197,6 @@ y_train[1]
 # plt.legend(['train', 'test'], loc='upper left')
 # plt.show()
 
-#so I have a running model...but what does this actually mean? i.e. an MSE of ~8%
-#I know it can be improved...are these inputs good enough to predict the conc at a 
-#particular location in space?
-
 
 fig, ax = plt.subplots()
 ax.scatter(y_test, score_1)
